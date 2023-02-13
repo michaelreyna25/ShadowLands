@@ -11,17 +11,36 @@ Captured.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        : {
-            type: DataTypes.STRING,
-            allowNull: false,
-            unique: true,
+        attack: {
+            type: DataTypes.INTEGER,
         },
-        location_id: {
-            type: DataTypes.STRING,
+        health: {
+            type: DataTypes.INTEGER,
+        },
+        special: {
+            type: DataTypes.INTEGER,
+        },
+        defense: {
+            type: DataTypes.INTEGER,
+        },
+        player_id: {
+            type: DataTypes.INTEGER,
             allowNull: false,
             unique: true,
-        }
-
+            references: {
+                model: 'player',
+                key: 'id'
+            }
+        },
+        prototype_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            unique: true,
+            references: {
+                model: 'prototype',
+                key: 'id'
+            }
+        },
     },
     {
         sequelize,

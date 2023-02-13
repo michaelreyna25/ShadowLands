@@ -20,8 +20,11 @@ Journey.init(
             type: DataTypes.STRING,
             allowNull: false,
             unique: true,
+            references: {
+                model: 'location',
+                key: 'id'
+            }
         }
-
     },
     {
         sequelize,
@@ -32,4 +35,4 @@ Journey.init(
     }
 );
 
- module.exports = Journey; 
+ module.exports = Journey;
