@@ -1,9 +1,7 @@
 const router = require("express").Router();
-const withAuth = require('../../utils/auth');
-
 const { Location } = require("../../models");
 
-router.get("/", withAuth, async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const LocationArr = await Location.findAll();
     // const captured = capturedArr.map((captured) => captured.get({ plain: true }));
@@ -15,7 +13,7 @@ router.get("/", withAuth, async (req, res) => {
 });
 
 
-router.get("/:id", withAuth, async (req, res) => {
+router.get("/:id", async (req, res) => {
   const { id } = req.params;
   console.log(req.params.id);
   try {
@@ -34,7 +32,7 @@ router.get("/:id", withAuth, async (req, res) => {
   }
 });
 
-router.post("/", withAuth, async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const newLocation = await Location.create(req.body);
     res.status(200).json(newLocation);
@@ -43,7 +41,7 @@ router.post("/", withAuth, async (req, res) => {
   }
 });
 
-router.post("/", withAuth, async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const newLocation = await Location.create(req.body);
     res.status(200).json(newLocation);
@@ -52,7 +50,7 @@ router.post("/", withAuth, async (req, res) => {
   }
 });
 
-router.put("/:id", withAuth, async (req, res) => {
+router.put("/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const [updated] = await Location.update(req.body, { where: { id }});
@@ -70,7 +68,7 @@ router.put("/:id", withAuth, async (req, res) => {
   }
 });
 
-router.delete("/:id", withAuth, async (req, res) => {
+router.delete("/:id", async (req, res) => {
   // delete a Location by its `id` value
   try {
     // Delete the Location with the given `id` from the database
