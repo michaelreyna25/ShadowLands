@@ -1,6 +1,6 @@
 const Boss = require('./Boss')
 const Captured = require('./Captured')
-const Journey = require('./Journey')
+const Journey = require('./progress')
 const Location = require('./Location')
 const Player = require('./Player')
 const Prototype = require('./Prototype')

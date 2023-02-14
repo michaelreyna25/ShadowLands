@@ -9,17 +9,25 @@ User.init(
             type: DataTypes.INTEGER,
             allowNull: false,
         },
+        username: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         email: {
             type: DataTypes.STRING,
             allowNull: false,
             unique: true,
+            validate: {
+                isEmail: {
+                    args: true,
+                }
+            }
         },
         password: {
             type: DataTypes.STRING,
             allowNull: false,
             unique: true,
         }
-
     },
     {
         sequelize,

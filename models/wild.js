@@ -47,7 +47,7 @@ Wild.init(
         timestamps: true,
         freezeTableName: true,
         underscored: true,
-        modelName: "captured",
+        modelName: "wild",
     }
 );
 
