@@ -1,0 +1,181 @@
+[{
+  "name": "Robriana",
+  "attack": 38,
+  "health": 133,
+  "special": 25,
+  "defense": 20,
+  "location_id": 1,
+  "prototype_id": 1
+ },
+ {
+  "name": "Ralph",
+  "attack": 40,
+  "health": 251,
+  "special": 25,
+  "defense": 20,
+  "location_id": 1,
+  "prototype_id": 2
+ },
+ {
+  "name": "Jimothy",
+  "attack": 42,
+  "health": 217,
+  "special": 25,
+  "defense": 20,
+  "location_id": 1,
+  "prototype_id": 3
+ },
+ {
+  "name": "Dorothy",
+  "attack": 43,
+  "health": 160,
+  "special": 25,
+  "defense": 20,
+  "location_id": 1,
+  "prototype_id": 4
+ },
+ {
+  "name": "Alfred",
+  "attack": 45,
+  "health": 156,
+  "special": 25,
+  "defense": 20,
+  "location_id": 1,
+  "prototype_id": 5
+ },
+ {
+  "name": "Jimothy",
+  "attack": 52,
+  "health": 254,
+  "special": 25,
+  "defense": 20,
+  "location_id": 2,
+  "prototype_id": 6
+ },
+ {
+  "name": "Burger",
+  "attack": 52,
+  "health": 269,
+  "special": 25,
+  "defense": 20,
+  "location_id": 2,
+  "prototype_id": 7
+ },
+ {
+  "name": "Bobert",
+  "attack": 54,
+  "health": 252,
+  "special": 25,
+  "defense": 20,
+  "location_id":2,
+  "prototype_id": 8
+ },
+ {
+  "name": "Nedward",
+  "attack": 55,
+  "health": 189,
+  "special": 25,
+  "defense": 20,
+  "location_id": 2,
+  "prototype_id": 9
+ },
+ {
+  "name": "Wrendalynn",
+  "attack": 57,
+  "health": 256,
+  "special": 25,
+  "defense": 20,
+  "location_id": 2,
+  "prototype_id": 10
+ },
+ {
+  "name": "Samphanie",
+  "attack": 62,
+  "health": 307,
+  "special": 25,
+  "defense": 20,
+  "location_id": 3,
+  "prototype_id": 11
+ },
+ {
+  "name": "Brolga",
+  "attack": 63,
+  "health": 295,
+  "special": 25,
+  "defense": 20,
+  "location_id": 3,
+  "prototype_id": 12
+ },
+ {
+  "name": "Broseph",
+  "attack": 64,
+  "health": 177,
+  "special": 25,
+  "defense": 20,
+  "location_id": 3,
+  "prototype_id": 13
+ },
+ {
+  "name": "Chanddon",
+  "attack": 65,
+  "health": 238,
+  "special": 25,
+  "defense": 20,
+  "location_id": 3,
+  "prototype_id": 14
+ },
+ {
+  "name": "Rachole",
+  "attack": 66,
+  "health": 206,
+  "special": 25,
+  "defense": 20,
+  "location_id": 3,
+  "prototype_id": 15
+ },
+ {
+  "name": "Victonald",
+  "attack": 71,
+  "health": 314,
+  "special": 25,
+  "defense": 20,
+  "location_id": 4,
+  "prototype_id": 16
+ },
+ {
+  "name": "Victordian",
+  "attack": 72,
+  "health": 184,
+  "special": 25,
+  "defense": 20,
+  "location_id": 4,
+  "prototype_id": 17
+ },
+ {
+  "name": "Luth",
+  "attack": 73,
+  "health": 262,
+  "special": 25,
+  "defense": 20,
+  "location_id": 4,
+  "prototype_id": 18
+ },
+ {
+  "name": "Tessander",
+  "attack": 75,
+  "health": 299,
+  "special": 25,
+  "defense": 20,
+  "location_id": 4,
+  "prototype_id": 19
+ },
+ {
+  "name": "Tombert",
+  "attack": 77,
+  "health": 207,
+  "special": 25,
+  "defense": 20,
+  "location_id": 4,
+  "prototype_id": 20
+ }]
+ 
