@@ -15,17 +15,18 @@ Player.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        progress: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            validate: {
+                min:0,
+                max:2
+            }
+        },
         location_id: {
             type: DataTypes.INTEGER,
             references: {
                 model: 'location',
-                key: 'id'
-            }
-        },
-        journey_id: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'journey',
                 key: 'id'
             }
         },

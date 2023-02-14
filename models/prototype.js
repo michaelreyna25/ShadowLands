@@ -16,15 +16,15 @@ Prototype.init(
             allowNull: false,
             unique: true,
         },
+        picture: {
+            type: DataTypes.STRING,
+            unique: true,
+        },
         base_attack: {
             type: DataTypes.INTEGER,
         },
         base_health: {
             type: DataTypes.INTEGER,
-        },
-        pictures: {
-            type: DataTypes.STRING,
-            unique: true,
         },
         base_defense: {
             type: DataTypes.INTEGER,
