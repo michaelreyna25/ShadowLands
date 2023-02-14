@@ -57,6 +57,27 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+router.delete("/:id", withAuth, async (req, res) => {
+  // delete a Captured by its `id` value
+  try {
+    // Delete the Captured with the given `id` from the database
+    const deleted = await Captured.destroy({ where: { id: req.params.id } });
+
+    // If the Captured is not found, return a 404 response with a message
+    if (!deleted) {
+      return res.status(404).json({ message: "Captured monster not found" });
+    }
+
+    // const updatedCaptured = await Captured.findAll();
+    // return res.status(200).json(updatedCaptured);
+    
+    // Return a success message in the response
+    return res.status(200).json({ message: "Captured monster deleted successfully" });
+  } catch (err) {
+    // In case of any errors, return a 400 response with the error message
+    return res.status(400).json(err);
+  }
+});
 
 
 module.exports = router;
