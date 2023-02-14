@@ -5,12 +5,12 @@ class Player extends Model {}
 
 Player.init(
     {
-        id:{
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            autoIncrement: true,
-            primaryKey: true,
-        },
+        // id:{
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     autoIncrement: true,
+        //     primaryKey: true,
+        // },
         name: {
             type: DataTypes.STRING,
             allowNull: false,

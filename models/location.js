@@ -5,18 +5,22 @@ class Location extends Model {}
 
 Location.init(
     {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            autoIncrement: true,
-            primaryKey: true,
-        },
+        // id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     autoIncrement: true,
+        //     primaryKey: true,
+        // },
         name: {
             type: DataTypes.STRING,
             allowNull: false,
             unique: true,
         },
-        description: {
+        introduction: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        conclusion: {
             type: DataTypes.STRING,
             allowNull: false,
         }

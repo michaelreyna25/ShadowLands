@@ -5,12 +5,12 @@ class Prototype extends Model {}
 
 Prototype.init(
     {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            autoIncrement: true,
-            primaryKey: true,
-        },
+        // id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     autoIncrement: true,
+        //     primaryKey: true,
+        // },
         name: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -18,7 +18,7 @@ Prototype.init(
         },
         picture: {
             type: DataTypes.STRING,
-            unique: true,
+            // unique: true,
         },
         base_attack: {
             type: DataTypes.INTEGER,

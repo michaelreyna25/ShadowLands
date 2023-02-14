@@ -1,26 +1,26 @@
 [
   {
-    "name": "flowerpower",
+    "username": "flowerpower",
     "email": "flower@gmail.com",
     "password": "flower123"
   },
   {
-    "name": "catlover",
+    "username": "catlover",
     "email": "catlover@gmail.com",
     "password": "kittycat"
   },
   {
-    "name": "beachfan",
+    "username": "beachfan",
     "email": "beachfan@gmail.com",
     "password": "sandybeach"
   },
   {
-    "name": "bookworm",
+    "username": "bookworm",
     "email": "sandybeachn@gmail.com",
     "password": "pageTurner"
   },
   {
-    "name": "moviebuff",
+    "username": "moviebuff",
     "email": "moviebuff@gmail.com",
     "password": "reeltime"
   }

@@ -5,7 +5,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 1,
-    "protoype_id": 1
+    "prototype_id": 1
   },
   {
     "attack": 40,
@@ -13,7 +13,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 2,
-    "protoype_id": 2
+    "prototype_id": 2
   },
   {
     "attack": 42,
@@ -21,7 +21,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 3,
-    "protoype_id": 3
+    "prototype_id": 3
   },
   {
     "attack": 43,
@@ -29,7 +29,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 4,
-    "protoype_id": 4
+    "prototype_id": 4
   },
   {
     "attack": 45,
@@ -37,7 +37,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 5,
-    "protoype_id": 5
+    "prototype_id": 5
   },
   {
     "attack": 52,
@@ -45,7 +45,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 6,
-    "protoype_id": 6
+    "prototype_id": 6
   },
   {
     "attack": 52,
@@ -53,7 +53,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 7,
-    "protoype_id": 7
+    "prototype_id": 7
   },
   {
     "attack": 54,
@@ -61,7 +61,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 8,
-    "protoype_id": 8
+    "prototype_id": 8
   },
   {
     "attack": 55,
@@ -69,7 +69,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 9,
-    "protoype_id": 9
+    "prototype_id": 9
   },
   {
     "attack": 57,
@@ -77,7 +77,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 10,
-    "protoype_id": 10
+    "prototype_id": 10
   },
   {
     "attack": 62,
@@ -85,7 +85,7 @@
     "special": 25,
     "defense": 20,
     "player_id": 11,
-    "protoype_id": 11
+    "prototype_id": 11
   },
   {
     "attack": 63,
@@ -93,7 +93,6 @@
     "special": 25,
     "defense": 20,
     "player_id": 12,
-    "protoype_id": 12
+    "prototype_id": 12
   }
   ]
-  

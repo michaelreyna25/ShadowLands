@@ -5,12 +5,12 @@ class Boss extends Model {}
 
 Boss.init(
     {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            primaryKey: true,
-            autoIncrement: true,
-        },
+        // id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     primaryKey: true,
+        //     autoIncrement: true,
+        // },
         attack: {
             type: DataTypes.INTEGER,
         },
@@ -26,7 +26,7 @@ Boss.init(
         location_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            unique: true,
+            // unique: true,
             references: {
                 model: 'location',
                 key: 'id'
