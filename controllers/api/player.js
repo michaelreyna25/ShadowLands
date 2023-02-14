@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const withAuth = require('../../utils/auth');
 
-const { Captured, Location, Player, Prototype, User, Wild } = require("../../models");
+const { Player } = require("../../models");
 
 router.get("/", async (req, res) => {
   try {
@@ -59,7 +59,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-router.delete("/:id", withAuth, async (req, res) => {
+router.delete("/:id", async (req, res) => {
   // delete a player by its `id` value
   try {
     // Delete the player with the given `id` from the database
