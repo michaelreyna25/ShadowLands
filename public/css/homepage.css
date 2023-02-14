@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: space-between;
+    outline: 2px solid red;
+
+}
+
+
+
+
+#background-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    outline: 2px solid red;
+    background-image: url('../image/image-003.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.description {
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    outline: 1px solid #ddd;
+    outline-offset: 5px;
+    width: 150px;
+    padding: 10px;
+    image-rendering: auto;
+} 

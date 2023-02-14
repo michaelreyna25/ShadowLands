@@ -1,0 +1,27 @@
+[
+  {
+    "username": "flowerpower",
+    "email": "flower@gmail.com",
+    "password": "flower123"
+  },
+  {
+    "username": "catlover",
+    "email": "catlover@gmail.com",
+    "password": "kittycat"
+  },
+  {
+    "username": "beachfan",
+    "email": "beachfan@gmail.com",
+    "password": "sandybeach"
+  },
+  {
+    "username": "bookworm",
+    "email": "sandybeachn@gmail.com",
+    "password": "pageTurner"
+  },
+  {
+    "username": "moviebuff",
+    "email": "moviebuff@gmail.com",
+    "password": "reeltime"
+  }
+]

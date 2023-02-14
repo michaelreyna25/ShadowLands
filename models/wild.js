@@ -5,12 +5,12 @@ class Wild extends Model {}
 
 Wild.init(
     {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            primaryKey: true,
-            autoIncrement: true,
-        },
+        // id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     primaryKey: true,
+        //     autoIncrement: true,
+        // },
         attack: {
             type: DataTypes.INTEGER,
         },
@@ -26,7 +26,6 @@ Wild.init(
         location_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            unique: true,
             references: {
                 model: 'location',
                 key: 'id'

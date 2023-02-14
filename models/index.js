@@ -1,89 +1,67 @@
 const Boss = require('./Boss')
 const Captured = require('./Captured')
-const Journey = require('./progress')
 const Location = require('./Location')
 const Player = require('./Player')
 const Prototype = require('./Prototype')
 const User = require('./User')
 const Wild = require('./Wild')
 
-Boss.belongTo(Location, {
+Boss.belongsTo(Location, {
     foreignKey: 'location_id',
-});
-
-Boss.belongTo(Prototype, {
-    foreignKey: 'prototype',
-});
-
-Captured.belongTo(Player, {
-    foreignKey: 'player_id',
     onDelete: 'CASCADE'
 });
 
-Captured.belongTo(Prototype, {
+Boss.belongsTo(Prototype, {
     foreignKey: 'prototype_id',
+});
+
+Captured.belongsTo(Player, {
+    foreignKey: 'player_id',
     onDelete: 'CASCADE'
 });
 
-Journey.hasMany(Player, {
-    foreignKey: 'player_id',
-});
-
-Journey.belongTo(Location, {
-    foreignKey: 'location_id',
+Captured.belongsTo(Prototype, {
+    foreignKey: 'prototype_id',
 });
 
 Location.hasMany(Player, {
     foreignKey: 'player_id',
-    onDelete: 'CASCADE'
 });
 
-Player.belongTo(Location, {
+Player.belongsTo(Location, {
     foreignKey: 'location_id',
-    onDelete: 'CASCADE'
 });
 
 Player.hasOne(Captured, {
-    foreignKey: 'captured_id',
-    onDelete: 'CASCADE'
-});
-
-Prototype.hasMany(Captured, {
-    foreignKey: 'captured_id',
-    onDelete: 'CASCADE'
-});
-
-Prototype.hasMany(Wild, {
-    foreignKey: 'wild_id',
-    onDelete: 'CASCADE'
-});
-
-Prototype.hasMany(Boss, {
-    foreignKey: 'boss_id',
-    onDelete: 'CASCADE'
-});
-
-User.hasOne(Player, {
     foreignKey: 'player_id',
     onDelete: 'CASCADE'
 });
 
-Wild.belongTo(Location, {
-    foreignKey: 'location_id',
-    onDelete: 'CASCADE'
-});
-
-Wild.belongTo(Prototype, {
+Prototype.hasMany(Captured, {
     foreignKey: 'prototype_id',
 });
 
+Prototype.hasMany(Wild, {
+    foreignKey: 'prototype_id',
+});
+
+Prototype.hasMany(Boss, {
+    foreignKey: 'prototype_id',
+});
+
+User.hasOne(Player, {
+    foreignKey: 'user_id',
+});
+
+Wild.belongsTo(Location, {
+    foreignKey: 'location_id',
+});
+
+Wild.belongsTo(Prototype, {
+    foreignKey: 'prototype_id',
+});
+
+
 module.exports = {
-    Player,
-    Boss,
-    Captured,
-    Journey,
-    Location,
-    User,
-    Wild,
-    Prototype
+    Captured, Boss, Player, Prototype, Location, User, Wild
 }

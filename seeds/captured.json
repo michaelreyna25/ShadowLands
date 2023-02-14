@@ -1,0 +1,98 @@
+[
+  {
+    "attack": 38,
+    "health": 133,
+    "special": 25,
+    "defense": 20,
+    "player_id": 1,
+    "prototype_id": 1
+  },
+  {
+    "attack": 40,
+    "health": 251,
+    "special": 25,
+    "defense": 20,
+    "player_id": 2,
+    "prototype_id": 2
+  },
+  {
+    "attack": 42,
+    "health": 217,
+    "special": 25,
+    "defense": 20,
+    "player_id": 3,
+    "prototype_id": 3
+  },
+  {
+    "attack": 43,
+    "health": 160,
+    "special": 25,
+    "defense": 20,
+    "player_id": 4,
+    "prototype_id": 4
+  },
+  {
+    "attack": 45,
+    "health": 156,
+    "special": 25,
+    "defense": 20,
+    "player_id": 5,
+    "prototype_id": 5
+  },
+  {
+    "attack": 52,
+    "health": 254,
+    "special": 25,
+    "defense": 20,
+    "player_id": 6,
+    "prototype_id": 6
+  },
+  {
+    "attack": 52,
+    "health": 269,
+    "special": 25,
+    "defense": 20,
+    "player_id": 7,
+    "prototype_id": 7
+  },
+  {
+    "attack": 54,
+    "health": 252,
+    "special": 25,
+    "defense": 20,
+    "player_id": 8,
+    "prototype_id": 8
+  },
+  {
+    "attack": 55,
+    "health": 189,
+    "special": 25,
+    "defense": 20,
+    "player_id": 9,
+    "prototype_id": 9
+  },
+  {
+    "attack": 57,
+    "health": 256,
+    "special": 25,
+    "defense": 20,
+    "player_id": 10,
+    "prototype_id": 10
+  },
+  {
+    "attack": 62,
+    "health": 307,
+    "special": 25,
+    "defense": 20,
+    "player_id": 11,
+    "prototype_id": 11
+  },
+  {
+    "attack": 63,
+    "health": 295,
+    "special": 25,
+    "defense": 20,
+    "player_id": 12,
+    "prototype_id": 12
+  }
+  ]
