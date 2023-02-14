@@ -1,6 +1,6 @@
 [{
   "name": "Screecher 1",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 33,
   "base_health": 128,
   "base_defense": 50,
@@ -8,7 +8,7 @@
 },
 {
   "name": "Blizzard Mage 2",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 35,
   "base_health": 236,
   "base_defense": 50,
@@ -16,7 +16,7 @@
 },
 {
   "name": "Plasmaticus 3",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 37,
   "base_health": 213,
   "base_defense": 50,
@@ -24,7 +24,7 @@
 },
 {
   "name": "Fire Mage 4",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 38,
   "base_health": 155,
   "base_defense": 50,
@@ -32,7 +32,7 @@
 },
 {
   "name": "Omenbeast 5",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 40,
   "base_health": 151,
   "base_defense": 50,
@@ -40,7 +40,7 @@
 },
 {
   "name": "Blightwing 6",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 42,
   "base_health": 243,
   "base_defense": 50,
@@ -48,7 +48,7 @@
 },
 {
   "name": "Stormbird 7",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 42,
   "base_health": 259,
   "base_defense": 50,
@@ -56,7 +56,7 @@
 },
 {
   "name": "Tramplehorn 8",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 44,
   "base_health": 242,
   "base_defense": 50,
@@ -64,7 +64,7 @@
 },
 {
   "name": "Infernoheart 9",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 45,
   "base_health": 179,
   "base_defense": 50,
@@ -72,7 +72,7 @@
 },
 {
   "name": "Hellfang 10",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 47,
   "base_health": 246,
   "base_defense": 50,
@@ -80,7 +80,7 @@
 },
 {
   "name": "Grimhaze 11",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 47,
   "base_health": 292,
   "base_defense": 50,
@@ -88,7 +88,7 @@
 },
 {
   "name": "Ironmaul 12",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 48,
   "base_health": 280,
   "base_defense": 50,
@@ -96,7 +96,7 @@
 },
 {
   "name": "Thunderhoof 13",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 49,
   "base_health": 162,
   "base_defense": 50,
@@ -104,7 +104,7 @@
 },
 {
   "name": "Stonecrusher 14",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 50,
   "base_health": 223,
   "base_defense": 50,
@@ -112,7 +112,7 @@
 },
 {
   "name": "Deepterror 15",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 51,
   "base_health": 191,
   "base_defense": 50,
@@ -120,7 +120,7 @@
 },
 {
   "name": "Frostgore 16",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 51,
   "base_health": 294,
   "base_defense": 50,
@@ -128,7 +128,7 @@
 },
 {
   "name": "Shadowstalker 17",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 52,
   "base_health": 164,
   "base_defense": 50,
@@ -136,7 +136,7 @@
 },
 {
   "name": "Necrotic Claw 18",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 53,
   "base_health": 242,
   "base_defense": 50,
@@ -144,7 +144,7 @@
 },
 {
   "name": "Bone Dragon 19",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 55,
   "base_health": 279,
   "base_defense": 50,
@@ -152,7 +152,7 @@
 },
 {
   "name": "Dark Conjurer 20",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 57,
   "base_health": 187,
   "base_defense": 50,
@@ -160,7 +160,7 @@
 },
 {
   "name": "Spectral Blade 21",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 57,
   "base_health": 291,
   "base_defense": 50,
@@ -168,7 +168,7 @@
 },
 {
   "name": "Hellfire Hound 22",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 58,
   "base_health": 125,
   "base_defense": 50,
@@ -176,7 +176,7 @@
 },
 {
   "name": "Abyssal Lord 23",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 59,
   "base_health": 215,
   "base_defense": 50,
@@ -184,7 +184,7 @@
 },
 {
   "name": "Mummified Pharaoh 24",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 59,
   "base_health": 242,
   "base_defense": 50,
@@ -192,7 +192,7 @@
 },
 {
   "name": "Night Queen 25",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 60,
   "base_health": 287,
   "base_defense": 50,
@@ -200,7 +200,7 @@
 },
 {
   "name": "Arachnid Empress 26",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 63,
   "base_health": 221,
   "base_defense": 50,
@@ -208,7 +208,7 @@
 },
 {
   "name": "Venomstrike 27",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 64,
   "base_health": 259,
   "base_defense": 50,
@@ -216,7 +216,7 @@
 },
 {
   "name": "Granite Guardian 28",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 64,
   "base_health": 128,
   "base_defense": 50,
@@ -224,7 +224,7 @@
 },
 {
   "name": "Steel Colossus 29",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 65,
   "base_health": 201,
   "base_defense": 50,
@@ -232,7 +232,7 @@
 },
 {
   "name": "Electrified Hornet 30",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 67,
   "base_health": 290,
   "base_defense": 50,
@@ -240,7 +240,7 @@
 },
 {
   "name": "Sea Viper 31",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 69,
   "base_health": 138,
   "base_defense": 50,
@@ -248,7 +248,7 @@
 },
 {
   "name": "Ocean Behemoth 32",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 70,
   "base_health": 273,
   "base_defense": 50,
@@ -256,7 +256,7 @@
 },
 {
   "name": "Woodland Wraith 33",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 72,
   "base_health": 284,
   "base_defense": 50,
@@ -264,7 +264,7 @@
 },
 {
   "name": "Mountain Goliath 34",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 72,
   "base_health": 187,
   "base_defense": 50,
@@ -272,7 +272,7 @@
 },
 {
   "name": "Shadow Assassin 35",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 74,
   "base_health": 258,
   "base_defense": 50,
@@ -280,7 +280,7 @@
 },
 {
   "name": "Warlord Orc 36",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 74,
   "base_health": 191,
   "base_defense": 50,
@@ -288,7 +288,7 @@
 },
 {
   "name": "Infernal Goblin 37",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 174,
   "base_defense": 50,
@@ -296,7 +296,7 @@
 },
 {
   "name": "Colossus Troll 38",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 76,
   "base_health": 275,
   "base_defense": 50,
@@ -304,7 +304,7 @@
 },
 {
   "name": "Giant Batwing 39",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 278,
   "base_defense": 50,
@@ -312,7 +312,7 @@
 },
 {
   "name": "Pestilent Rat 40",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 198,
   "base_defense": 50,
@@ -320,7 +320,7 @@
 },
 {
   "name": "Lunar Beast 40",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 77,
   "base_health": 270,
   "base_defense": 50,
@@ -328,7 +328,7 @@
 },
 {
   "name": "Bloodthrone Vampire 41",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 290,
   "base_defense": 50,
@@ -336,7 +336,7 @@
 },
 {
   "name": "Siren Queen 42",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 77,
   "base_health": 259,
   "base_defense": 50,
@@ -344,7 +344,7 @@
 },
 {
   "name": "Leviathan 43",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 78,
   "base_health": 200,
   "base_defense": 50,
@@ -352,7 +352,7 @@
 },
 {
   "name": "Magma Spirit 44",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 79,
   "base_health": 278,
   "base_defense": 50,
@@ -360,7 +360,7 @@
 },
 {
   "name": "Aether Dragon 45",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 293,
   "base_defense": 50,
@@ -368,7 +368,7 @@
 },
 {
   "name": "Frost Drake 46",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 75,
   "base_health": 297,
   "base_defense": 50,
@@ -376,7 +376,7 @@
 },
 {
   "name": "Chaos Demon 47",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 76,
   "base_health": 297,
   "base_defense": 50,
@@ -384,7 +384,7 @@
 },
 {
   "name": "Plague Fiend 48",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 76,
   "base_health": 249,
   "base_defense": 50,
@@ -392,7 +392,7 @@
 },
 {
   "name": "Skeleton King 49",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 76,
   "base_health": 274,
   "base_defense": 50,
@@ -400,7 +400,7 @@
 },
 {
   "name": "Shadow Dragon 50",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 77,
   "base_health": 298,
   "base_defense": 50,
@@ -408,7 +408,7 @@
 },
 {
   "name": "Blaze Phoenix 51",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 78,
   "base_health": 300,
   "base_defense": 50,
@@ -416,7 +416,7 @@
 },
 {
   "name": "Goblin Chieftain 52",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 79,
   "base_health": 298,
   "base_defense": 50,
@@ -424,7 +424,7 @@
 },
 {
   "name": "Toxic Necromancer 53",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 80,
   "base_health": 295,
   "base_defense": 50,
@@ -432,7 +432,7 @@
 },
 {
   "name": "Fire Elemental 54",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 80,
   "base_health": 285,
   "base_defense": 50,
@@ -440,7 +440,7 @@
 },
 {
   "name": "Earth Golem 55",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 81,
   "base_health": 270,
   "base_defense": 50,
@@ -448,7 +448,7 @@
 },
 {
   "name": "Wind Spirit 56",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 82,
   "base_health": 296,
   "base_defense": 50,
@@ -456,7 +456,7 @@
 },
 {
   "name": "Shadow Knight 57",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 83,
   "base_health": 297,
   "base_defense": 50,
@@ -464,7 +464,7 @@
 },
 {
   "name": "Necrotic Lich 58",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 83,
   "base_health": 300,
   "base_defense": 50,
@@ -472,7 +472,7 @@
 },
 {
   "name": "Thunder Drake 59",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 85,
   "base_health": 294,
   "base_defense": 50,
@@ -480,7 +480,7 @@
 },
 {
   "name": "Manbearpig 60",
-  "picture" : "/assets/images/monster.png",
+  "picture" : "/images/muzzy.jpeg",
   "base_attack": 90,
   "base_health": 300,
   "base_defense": 50,

@@ -1,12 +1,13 @@
 const path = require('path');
 const express = require('express');
 const exphbs = require('express-handlebars');
+const routers = require('./controllers')
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // import sequelize connection
-const sql = require("./config/connection")
+const sequelize = require('./config/connections')
 
 const hbs = exphbs.create({});
 
@@ -29,10 +30,10 @@ const sess = {
   cookie: {
     maxAge: 86400,
   },
-  resave: false, 
+  resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
-    db: sql,
+    db: sequelize,
   }),
 };
 
@@ -41,7 +42,7 @@ app.use(session(sess))
 app.use(require('./controllers'));
 
 // sync sequelize models to the database, then turn on the server
-sql.sync({ force : false }).then(()=> {
+sequelize.sync({ force : false }).then(()=> {
 app.listen(PORT, () => {
   console.log(`App listening on port http://localhost:${PORT}/ 🚀`);
 })
