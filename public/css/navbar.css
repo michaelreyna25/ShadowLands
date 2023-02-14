@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+nav {
+    display: flex;
+}
+
+
+nav div {
+    margin: auto;
+}
+
+a {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(83, 80, 80);
+    font-weight: bold;
+    font-family: 'Antic Didone', serif;
+}
+
+nav img {
+    max-height: 45px;
+    max-width: 45px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+}

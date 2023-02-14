@@ -7,21 +7,24 @@ main {
 
 }
 
-
-
-
 #background-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     width: 100%;
     outline: 2px solid red;
     background-image: url('../image/image-003.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25vh;
+    font-size: x-large;
+}
 
+#background-image h1 {
+    display: inline;
+}
+
+#background-image div {
+    background-color: white;
+    opacity: 50%;
+    margin: auto;
 }
 
 .about {
@@ -37,7 +40,7 @@ main {
     text-align: center;
 }
 
-img {
+#thumb-nail {
     outline: 1px solid #ddd;
     outline-offset: 5px;
     width: 150px;
