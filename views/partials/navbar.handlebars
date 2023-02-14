@@ -1,12 +1,13 @@
-<div class="container">
-    <div id="logo-image" class="">
-        <image src="" aria-placeholder="image"/>
-    </div>
-    <div id="logo-title" class="">
-        <h1>ShadowLands</h1>
-    </div>
-    <div id="dash-board" class="">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/list/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    </div>
-    <di id="login-signup"></di>
-</div>
+<nav class="nav nav-pills nav-justified">
+    <a class="nav-link"><img src="../../public/image/image-006.png" aria-placeholder="image" /></a>
+    <a class="nav-link active" href="../home.handlebars">ShadowLands</a>
+    <a class="nav-link active" href="./dashboard">Dash Board</a>
+    {{#if logged_in}}
+    <a class="nav-link active" href="../logout">Logout</a>
+    {{else}}
+    <a class="nav-link active" href="./login-signup">Login/Sign Up</a>
+    {{/if}}
+</nav>
