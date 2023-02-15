@@ -1,0 +1,21 @@
+<section> hi
+    <div>
+        <article>
+            {{#each prototypeArr as |proto|}}
+            {{>ncc-avatar}}
+            {{/each}}
+        </article>
+        <article>
+            {{#each prototypeArr as |proto|}}
+            {{>ncc-stats}}
+            {{/each}}
+        </article>
+    </div>
+    <article>
+        <ul>
+            {{#each prototypeArr as |proto|}}
+            {{>ncc-icon}}
+            {{/each}}
+        </ul>
+    </article>
+</section>
