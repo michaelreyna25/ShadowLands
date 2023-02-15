@@ -3,12 +3,14 @@
 <nav class="">
     <a class="" href="/"><img src="/image/image-006.png" aria-placeholder="image" /></a>
     <div>
-        <a class="" href="/about">About</a>
-        <a class="" href="/dashboard">Dash Board</a>
+        <a href="/about">About</a>
+        <a href="/dashboard">DashBoard</a>
         {{#if logged_in}}
-        <a class="" href="/logout">Logout</a>
+        <a id="logout" href="/logout">Logout</a>
         {{else}}
-        <a class="" href="/login-signup">Login/Sign Up</a>
+        <a href="/login-signup">Login/Sign Up</a>
         {{/if}}
     </div>
 </nav>
+
+<script
