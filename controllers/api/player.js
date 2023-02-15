@@ -41,6 +41,7 @@ router.post("/", async (req, res) => {
 
 router.put("/:id", async (req, res) => {
   // update a category by its `id` value
+  console.log("entered")
   try {
     const { id } = req.params;
     const [updated] = await Player.update(req.body, { where: { id } });
