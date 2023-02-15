@@ -16,7 +16,8 @@ Battle Through Darkness
 
 
 # Description
-
+This game was inspired by Pokemon (a childhood favorite), the sequence and over all of the game is simliar to the beloved classic.
+The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or 
 # Installtion Instructions
 
 # Github Account
@@ -35,8 +36,27 @@ Battle Through Darkness
 - [Troy](https://www.linkedin.com/in/troy-johnson-abb5a625a/)
 
 # Code Snippets
+``` async function createBattle(type, id) {
+  const response = await fetch(`/api/battle/`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ type, id }),
+  });
 
+  if (response.ok) {
+    const data = await response.json();
+    console.log("Arena creation successful:", data);
+  } else {
+    console.error("Error creating arena:", response.statusText);
+  }
+}
+```
 # Resources
+- Class Activties
+- W3 Schools
+- Google Images
 
 # Credits
 - Ashley Sese
