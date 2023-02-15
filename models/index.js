@@ -29,6 +29,17 @@ Location.hasMany(Player, {
     foreignKey: 'player_id',
 });
 
+Location.hasMany(Wild, {
+    foreignKey: 'location_id'
+})
+
+Location.hasMany(Boss, {
+    foreignKey: "location_id"
+})
+Player.belongsTo(User, {
+    foreignKey: "user_id",
+    onDelete: "CASCADE"
+})
 Player.belongsTo(Location, {
     foreignKey: 'location_id',
 });
