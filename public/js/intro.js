@@ -1,5 +1,5 @@
-async function createArena(type, id) {
-  const response = await fetch(`/api/arena/`, {
+async function createBattle(type, id) {
+  const response = await fetch(`/api/battle/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -41,7 +41,8 @@ document.querySelectorAll("button").forEach((btn) =>
     console.log(event.target)
     console.log("name", name)
     console.log("id", id)
-    await createArena(name, id)
+    await createBattle(name, id)
+    console.log("Entered")
     await updateProgress(5)
     document.location.reload();
   })
