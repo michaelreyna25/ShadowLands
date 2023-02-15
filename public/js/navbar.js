@@ -1,9 +1,9 @@
+const myLogOut = document.querySelector(".logout");
+const backDrop = document.querySelector(".back-drop");
 
-var backDrop = document.getElementById('#backDrop');
-var myLogOut = document.getElementById('#logout');
-var closeBttn = document.getElementsByClassName('.close');
+var closeBttn = document.querySelector(".close");
 
-myLogOut.onClick = () => {
+myLogOut.onclick = () => {
   console.log('yes');
   backDrop.style.display = 'block';
 }
@@ -12,16 +12,17 @@ closeBttn.onclick = () => {
   backDrop.style.display = 'none';
 }
 
-window.onClick = (event) => {
+window.onclick = (event) => {
   if (event.target == backDrop) {
     backDrop.style.display = 'none';
   }
 }
 
 const logout = async () => {
-  const response = await fetch('/api/user', {
+  const response = await fetch('/api/user/logout', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ logout: true })
   });
 
   if (response.ok) {
