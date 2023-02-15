@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const withAuth = require('../utils/auth');
+// const withAuth = require('../utils/auth');
 
 const {
   Captured,
@@ -10,14 +10,15 @@ const {
   Wild,
 } = require("../models");
 
-router.get("/:id", withAuth, async (req, res) => {
+router.get("/:id", async (req, res) => {
+// router.get("/:id", withAuth, async (req, res) => {
   try {
     const { id } = req.params;
 
     const user = await User.findByPk(id, {
       include: [
         {
-          model: Player, include: [{ model: Journey}],          
+          model: Player, include: [{ model: Journey}],
         }
       ],
     });
