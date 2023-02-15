@@ -30,6 +30,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 25px;
 
 
 }
@@ -37,12 +38,14 @@ main {
 .description {
     flex-direction: column;
     text-align: center;
+    text-
 }
 
 #thumb-nail {
-    outline: 1px solid #ddd;
-    outline-offset: 5px;
-    width: 150px;
     padding: 10px;
+    max-width: 250px;
+    max-height: 300px; 
     image-rendering: auto;
 } 
+
+d
