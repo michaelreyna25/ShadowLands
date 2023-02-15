@@ -38,7 +38,6 @@ main {
 .description {
     flex-direction: column;
     text-align: center;
-    text-
 }
 
 #thumb-nail {
@@ -47,5 +46,3 @@ main {
     max-height: 300px; 
     image-rendering: auto;
 } 
-
-d

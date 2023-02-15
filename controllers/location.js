@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const withAuth = require('../utils/auth');
+// const withAuth = require('../utils/auth');
 
 const {
   Battle,
@@ -12,11 +12,11 @@ const {
   Wild,
 } = require("../models");
 
-router.get("/:id", withAuth, async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const battleData = await renderGamestate(id);
-    // console.log("Battle Data: ", ...battleData)
+    console.log("Battle Data: ", ...battleData)
     res.render(...battleData);
   } catch (err) {
     res.status(500).json(err);
@@ -31,8 +31,7 @@ async function renderGamestate(p_id) {
     //rec.session.id
     include: [{ model: Captured, where: { player_id: 5 } }],
   });
-const cap = captured.get({plain : true})
-
+  const cap = captured.get({plain : true})
   switch (progress) {
     case 0:
       //set handlbars template
@@ -46,6 +45,9 @@ const cap = captured.get({plain : true})
         ],
       });
       const { intro, wilds, bosses } = introData.get({ plain: true });
+      const mydata = introData.get({ plain: true });
+      console.log("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=`entered: ", mydata)
+      
 
       //randomly select index of wild monster and boss
       const opponent = Math.floor(Math.random() * wilds.length);
@@ -91,7 +93,7 @@ const cap = captured.get({plain : true})
       break;
     default:
   }
-  // console.log( "return value: ", html.toString() , " + " , data, "||")
+   console.log( "return value: ", html.toString() , " + " , data, "||")
   return [html, data];
 }
 
