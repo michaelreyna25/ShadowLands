@@ -1,4 +1,4 @@
-const sequelize = require("../config/connections");
+const sequelize = require("../config/connection");
 const { Captured, Boss, Player, Prototype, Location, User, Wild } = require("../models");
 
 const boss = require("./boss.json");
