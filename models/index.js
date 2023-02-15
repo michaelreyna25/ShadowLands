@@ -1,4 +1,5 @@
 const Boss = require('./Boss')
+const Battle = require('./battle')
 const Captured = require('./Captured')
 const Location = require('./Location')
 const Player = require('./Player')
@@ -63,5 +64,5 @@ Wild.belongsTo(Prototype, {
 
 
 module.exports = {
-    Captured, Boss, Player, Prototype, Location, User, Wild
+    Captured, Battle, Boss, Player, Prototype, Location, User, Wild
 }

@@ -3,7 +3,7 @@ Battle Through Darkness
 
 
 # Table of Contents
-- [ShadowLands# shadowlands](#shadowlands-shadowlands)
+- [ShadowLands](#shadowlands)
 - [Table of Contents](#table-of-contents)
 - [Description](#description)
 - [Installtion Instructions](#installtion-instructions)
@@ -42,3 +42,9 @@ Battle Through Darkness
 - Ashley Sese
 - Michael Reyna
 - Troy Johnson
+
+
+
+
+
+

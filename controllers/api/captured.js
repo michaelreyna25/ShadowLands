@@ -68,8 +68,8 @@ router.delete("/:id", async (req, res) => {
       return res.status(404).json({ message: "Captured monster not found" });
     }
 
-    // const updatedCaptured = await Captured.findAll();
-    // return res.status(200).json(updatedCaptured);
+    // const alldCaptured = await Captured.findAll();
+    // return res.status(200).json(allCaptured);
     
     // Return a success message in the response
     return res.status(200).json({ message: "Captured monster deleted successfully" });
