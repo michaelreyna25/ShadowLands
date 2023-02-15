@@ -3,14 +3,13 @@ main {
     flex-direction: column;
     height: 100vh;
     align-content: space-between;
-    outline: 2px solid red;
 
 }
 
 #background-image {
     text-align: center;
     width: 100%;
-    outline: 2px solid red;
+    border-bottom: 2px solid red;
     background-image: url('../image/image-003.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +17,7 @@ main {
 }
 
 #background-image h1 {
-    display: inline;
+    
 }
 
 #background-image div {
