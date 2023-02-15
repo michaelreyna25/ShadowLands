@@ -82,10 +82,10 @@ async function renderGamestate(p_id) {
       console.log("Entered Case 1", data);
       break;
     case 2:
-      var { conc } = await Location.findByPk(p_id);
+      var { conclusion } = await Location.findByPk(p_id);
 
       html = "conc";
-      data = { conc, cap };
+      data = { conclusion, cap };
 // console.log( data)
       break;
     default:
