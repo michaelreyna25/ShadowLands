@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: space-between;
+
+}
+
+#background-image {
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid red;
+    background-image: url('../image/image-003.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+}
+
+#background-image h1 {
+    
+}
+
+#background-image div {
+    background-color: white;
+    opacity: 50%;
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+
+
+}
+
+.description {
+    flex-direction: column;
+    text-align: center;
+    text-
+}
+
+#thumb-nail {
+    padding: 10px;
+    max-width: 250px;
+    max-height: 300px; 
+    image-rendering: auto;
+} 
+
+d
