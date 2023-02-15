@@ -44,14 +44,11 @@ async function renderGamestate(p_id) {
           { model: Boss, where: { location_id: p_id } },
         ],
       });
-      const { intro, wilds, bosses } = introData.get({ plain: true });
-      const mydata = introData.get({ plain: true });
-      console.log("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=`entered: ", mydata)
-      
+      const { introduction, wilds, bosses } = introData.get({ plain: true });
 
       //randomly select index of wild monster and boss
       const opponent = Math.floor(Math.random() * wilds.length);
-      const beast = Math.floor(Math.random() * bosses.length);
+      const boss = Math.floor(Math.random() * bosses.length);
 
       //update table attributes
       // await Location.update(
@@ -66,9 +63,9 @@ async function renderGamestate(p_id) {
 
       html = "intro";
       data = {
-        intro,
+        introduction,
         wild_id: wilds[opponent].id,
-        beast_id: bosses[beast].id,
+        boss_id: bosses[boss].id,
       };
       //console.log({intro, wild_id: wilds[opponent].id, beast_id: bosses[beast].id})
       break;
@@ -79,16 +76,16 @@ async function renderGamestate(p_id) {
       //data = battleData.get({ plain: true });
 
       const battleArr = await Battle.findAll();
-      html = "Battle";
+      html = "battle";
       data = battleArr[battleArr.length - 1].get({ plain: true });
 
       console.log("Entered Case 1", data);
       break;
     case 2:
-      var { conc } = await Location.findByPk(p_id);
+      var { conclusion } = await Location.findByPk(p_id);
 
       html = "conc";
-      data = { conc, cap };
+      data = { conclusion, cap };
 // console.log( data)
       break;
     default:

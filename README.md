@@ -42,9 +42,3 @@ Battle Through Darkness
 - Ashley Sese
 - Michael Reyna
 - Troy Johnson
-
-
-
-
-
-
