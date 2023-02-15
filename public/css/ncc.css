@@ -1,0 +1,32 @@
+.my-selection{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* .articles-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} */
+/*
+.avatar-article, .stats-article {
+    width: 48%;
+}
+
+.icon-list{
+    list-style: none;
+    margin: 0;
+}
+
+.icon-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+  .icon-list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+} */

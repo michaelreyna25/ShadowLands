@@ -96,7 +96,7 @@
 },
 {
   "name": "Thunderhoof 13",
-  "picture" : "/images/olaf.jpeg",
+  "picture" : "/images/pinkDragon.jpeg",
   "base_attack": 49,
   "base_health": 162,
   "base_defense": 50,
@@ -112,7 +112,7 @@
 },
 {
   "name": "Deepterror 15",
-  "picture" : "/images/rocketMonster.jpeg",
+  "picture" : "/images/rocketMonster.png",
   "base_attack": 51,
   "base_health": 191,
   "base_defense": 50,
@@ -120,7 +120,7 @@
 },
 {
   "name": "Frostgore 16",
-  "picture" : "/images/scarlett.jpeg",
+  "picture" : "/images/scarlett.png",
   "base_attack": 51,
   "base_health": 294,
   "base_defense": 50,

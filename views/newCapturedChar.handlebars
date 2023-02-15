@@ -1,21 +1,23 @@
-<section> hi
-    <div>
-        <article>
+<link rel="stylesheet" href="/css/ncc.css">
+
+<section class="my-section"> hi
+    <div class="articles-container">
+        <article class="avatar-article">
             {{#each prototypeArr as |proto|}}
             {{>ncc-avatar}}
             {{/each}}
         </article>
-        <article>
+        <article="stats-article">
             {{#each prototypeArr as |proto|}}
             {{>ncc-stats}}
             {{/each}}
         </article>
     </div>
-    <article>
+    <articl ="icon-list">
         <ul>
             {{#each prototypeArr as |proto|}}
             {{>ncc-icon}}
             {{/each}}
         </ul>
-    </article>
+    </articl>
 </section>
