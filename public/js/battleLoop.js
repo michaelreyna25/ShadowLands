@@ -63,10 +63,11 @@ function winner(monster) {
   } else if (enemyType === "Wild Monster") {
     updateProgress(5, 0);
     increaseStats();
-  } else if (enemyType === "Beast Monster") {
+  } else if (enemyType === "Boss Monster") {
     updateProgress(5, 2);
     increaseStats();
   }
+  
 }
 
 function increaseStats() {

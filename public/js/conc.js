@@ -2,8 +2,8 @@ async function updateLocation() {
   const { href } = window.location;
 
   const urlArr = href.split("/");
-  const journey_id = urlArr[urlArr.length - 1]
-  const next = Number(journey_id) + 1
+  const location_id = urlArr[urlArr.length - 1]
+  const next = Number(location_id) + 1
 //req.session
 const ses = 5
   const response = await fetch(`/api/player/${ses}`, {
@@ -11,12 +11,12 @@ const ses = 5
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({progress: 0, journey_id: next}),
+    body: JSON.stringify({progress: 0, location_id: next}),
   });
   if (response.ok) {
     const data = await response.json();
     console.log("Successfully updated player's stats: ", data);
-    document.location.replace(`http://localhost:3001/Journey/${next}`)
+    document.location.replace(`http://localhost:3001/location/${next}`)
   } else {
     console.error(
       "Error updating player's stast:",
@@ -26,5 +26,5 @@ const ses = 5
 }
 
 document
-  .getElementById("next-journey")
+  .getElementById("next-location")
   .addEventListener("click", updateLocation);
