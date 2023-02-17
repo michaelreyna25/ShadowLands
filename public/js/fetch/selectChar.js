@@ -3,7 +3,7 @@
 //
 
 const selectChar = (selectedCharacter) => {
-    fetch(`/api/characters/${selectedCharacter}`)
+    fetch(`/api/prototype/${selectedCharacter}`)
       .then(response => response.json())
       .then(data => {
         const stats = data.stats;
