@@ -3,7 +3,7 @@ const router = require("express").Router();
 
 const {
   Captured,
-  Journey,
+  Location,
   Player,
   Prototype,
   User,
@@ -29,5 +29,7 @@ router.get("/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+// distributed information
 
 module.exports = router;
