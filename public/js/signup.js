@@ -10,20 +10,21 @@ const signup = async (event) => {
     const email = document.querySelector('.email');
     const password = document.querySelector('.password');
     const confirmPassword = document.querySelector('.confirm-password');
-    const confirm = document.querySelector('.confirm');
-
   
-    if (name && email && password) {
+
+    if (email && password && confirmPassword) {
       const response = await fetch('/api/users', {
         method: 'POST',
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({email, password }),
         headers: { 'Content-Type': 'application/json' },
       });
   
       if (response.ok) {
-        document.location.replace('/profile');
+        document.location.replace('/selectChar');
       } else {
         alert(response.statusText);
       }
     }
   };
+
+  document.querySelector('.confirm').addEventListener('click', signup);
