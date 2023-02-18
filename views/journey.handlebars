@@ -1,8 +1,12 @@
 <div>
-    {{!-- if --}}
-    {{!-- dialogue.hanldebars --}}
-    {{!-- else --}}
-    {{!-- battle.hanldebars --}}
-</div>
+    {{!-- {{#if inDialogue}}
+    {{> dialogue}}}
+    {{!-- {{else}} --}}
+    {{!-- {{>battle}} --}}
+
+    Handlebars.register('dialogue', {{dialogue.handlebar}})
+    Handlebars.register('battle', {{battle.handlebar}})
+
+
 
 <script src="../public/js/journey.js"></script>
