@@ -59,7 +59,7 @@ async function renderGamestate(p_id) {
       console.log("Entered Case 0");
       console.log("p_id", p_id);
       console.log("opponent", opponent);
-      console.log("shadowbeat", bosses);
+      console.log("shadowbeats", bosses);
 
       html = "intro";
       data = {
