@@ -22,7 +22,7 @@
     "characters": [
       {
         "name": "Screecher 1",
-        "picture": "ShadowLands/public/images/alien.jpeg",
+        "picture": "path/to/images/alien.jpeg",
         "stats": {
           "health": 128,
           "attack": 33,
@@ -30,7 +30,7 @@
           "special": 25
         }
       },
-      // check prototype.json for the rest of characters. 
+      // check prototype.json for the rest of characters.
     ]
   };
 </script>
@@ -61,11 +61,13 @@
     var character = context.characters.find(function(c) {
       return c.name === characterName;
     });
-    $('.picture-section').html(
-      Handlebars.templates['ncc-avatar'](character)
-    );
-    $('.stats-section').html(
-      Handlebars.templates['ncc-stats'](character.stats)
-    );
+    if (character) {
+      $('.picture-section').html(
+        Handlebars.templates['ncc-avatar'](character)
+      );
+      $('.stats-section').html(
+        Handlebars.templates['ncc-stats'](character.stats)
+      );
+    }
   });
 </script>
