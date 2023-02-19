@@ -2,7 +2,7 @@
   "characters": [
     {
       "name": "Screecher 1",
-      "picture": ShadowLands/public/images/alien.jpeg",
+      "picture": "ShadowLands/public/images/alien.jpeg",
       "stats": {
          "base_attack": 33,
          "base_health": 128,
@@ -13,3 +13,34 @@
     // ... add 19 more characters
   ]
 }
+<div class="character-grid">
+  {{#each characters}}
+    <div class="character-item">
+      <a href="#" data-name="{{name}}">
+        {{name}}
+      </a>
+    </div>
+  {{/each}}
+</div>
+$('.character-grid').on('click', 'a', function(event) {
+  event.preventDefault();
+  var characterName = $(this).data('name');
+  var character = context.characters.find(function(c) {
+    return c.name === characterName;
+  });
+  $('.picture-section').html(
+    Handlebars.templates['ncc-avatar'](character)
+  );
+  $('.stats-section').html(
+    Handlebars.templates['ncc-stats'](character.stats)
+  );
+});
+<img src="{{picture}}" alt="{{name}} avatar">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+<script src="templates.js"></script>
+<script>
+  var context = {...}; // define your context object here
+  var selectCharTemplate = Handlebars.templates['selectChar'];
+  var selectCharHtml = selectCharTemplate(context);
+  $('.container').html(selectCharHtml);
+</script>
