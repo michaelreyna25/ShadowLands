@@ -5,17 +5,17 @@
     <div>
         <a href="/about">About</a>
         <a href="/dashboard">DashBoard</a>
-        {{#if logged_in}} 
+        {{#if logged_in}}
         <button class="logout" >Logout</button>
 
         <div class="modal back-drop">
             <div class="content">
                 <span class="close">&times;</span>
                 <p>Are you sure you want to log out?</p>
-                <button id="logoutConfirm">Comfirm</button>
+                <button id="logoutConfirm">Confirm</button>
             </div>
         </div>
-        {{else}} 
+        {{else}}
         <a href="/login">Login</a>
         <a href="/signup">Signup</a>
         {{/if}}
@@ -23,4 +23,3 @@
 </nav>
 
 <script src="/js/navbar.js"></script>
-
