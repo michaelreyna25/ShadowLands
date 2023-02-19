@@ -1,30 +1,48 @@
-{{!-- display the navbar with the logout button  --}}
-{{!-- User can choose between selecting the battle button or the beast button  --}}
-{{!-- This handlebar will show a prompt displaying the user name vs the option they chose --}}
-{{> navbar}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js">
 
-<div class="container">
-  <h1>Battle</h1>
-  <p>Select an opponent:</p>
-  <div class="row">
-    <div class="col-sm-6">
-      <button class="btn btn-primary" onclick="selectOpponent('Wild')">Wild</button>
+fetch('/navbar.html')
+  .then(response => response.text())
+  .then(navbarTemplate => {
+    Handlebars.registerPartial('navbar', navbarTemplate);
+  });
+
+const template = Handlebars.compile(`
+  <div class="container">
+    {{> navbar}}
+    <h1>Battle</h1>
+    <p>Select an opponent:</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <button class="btn btn-primary" onclick="selectOpponent('Wild')">Wild</button>
+      </div>
+      <div class="col-sm-6">
+        <button class="btn btn-primary" onclick="selectOpponent('Boss')">Boss</button>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <button class="btn btn-primary" onclick="selectOpponent('Boss')">Boss</button>
-    </div>
+    {{#if selectedOpponent}}
+      <p>You have selected {{selectedOpponent}}!</p>
+    {{/if}}
   </div>
-  {{#if selectedOpponent}}
-    <p>You have selected {{selectedOpponent}}!</p>
-  {{/if}}
-</div>
 
-<script>
-function selectOpponent(opponent) {
-  // Set the selectedOpponent variable in the template's context
-  // This will trigger the {{#if}} block to show the prompt
-  Handlebars.update(this, { selectedOpponent: opponent });
-  // Display the prompt in an alert box
-  alert(`You have chosen to battle ${opponent}!`);
+  <div id="dialogue">
+  </div>
+`);
+
+const data = { selectedOpponent: null };
+const html = template(data);
+document.getElementById('app').innerHTML = html;
+
+function fetchDialogue() {
+  fetch('/dialogue')
+    .then(response => response.json())
+    .then(dialogueData => {
+      // Display the fetched data in the dialogue div
+      const dialogueDiv = document.getElementById('dialogue');
+      dialogueDiv.innerHTML = dialogueData.text;
+    })
+    .catch(error => {
+      console.error('Error fetching dialogue data:', error);
+    });
 }
+
 </script>
