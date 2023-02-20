@@ -6,7 +6,7 @@ fetch('/navbar.html')
     Handlebars.registerPartial('navbar', navbarTemplate);
   });
 
-const template = Handlebars.compile(`
+const template = Handlebars.compile(
   <div class="container">
     {{> navbar}}
     <h1>Battle</h1>
@@ -26,7 +26,7 @@ const template = Handlebars.compile(`
 
   <div id="dialogue">
   </div>
-`);
+);
 
 const data = { selectedOpponent: null };
 const html = template(data);
