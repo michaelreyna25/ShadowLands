@@ -3,6 +3,21 @@ const withAuth = require('../../utils/auth');
 
 const { Captured, Location, Player, Prototype, User, Wild } = require("../../models");
 
+
+router.post("/", async (req, res) => {
+  try {
+    const newUser = await User.create(req.body);
+        req.session.save(() => {
+          req.session.user_id = newUser.id;
+          req.session.logged_in = true;
+          
+          res.json({ user: userData, message: 'You are now logged in!' });
+        });
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
 router.get("/", withAuth, async (req, res) => {
   try {
     const UserArr = await User.findAll();
@@ -29,21 +44,7 @@ router.get("/:id", withAuth, async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
-  try {
-    const newUser = await User.create(req.body);
-    res.status(200).json(newUser);
-        // Create session variables based on the logged in user
-        req.session.save(() => {
-          req.session.user_id = newUser.id;
-          req.session.logged_in = true;
-          
-          res.json({ user: userData, message: 'You are now logged in!' });
-        });
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
+
 
 router.put("/:id", withAuth, async (req, res) => {
   // update a category by its `id` value
@@ -85,7 +86,7 @@ router.delete("/:id", withAuth, async (req, res) => {
 });
 
 
-router.post('/logout', (req, res) => { 
+router.post('/user/logout', (req, res) => { 
   if (req.session.logged_in) {
     req.session.destroy(() => {
       res.status(204).end();

@@ -1,11 +1,10 @@
 <link rel="stylesheet" href="/css/navbar.css" />
 
-<nav class="">
-    <a class="" href="/"><img src="/image/image-006.png" aria-placeholder="image" /></a>
+<nav>
+    <a href="/"><img src="/image/image-006.png" aria-placeholder="image" /></a>
     <div>
-        <a href="/about">About</a>
+        {{#if logged_in}} 
         <a href="/dashboard">DashBoard</a>
-        {{#if logged_in}}
         <button class="logout" >Logout</button>
 
         <div class="modal back-drop">
@@ -15,9 +14,9 @@
                 <button id="logoutConfirm">Confirm</button>
             </div>
         </div>
-        {{else}}
-        <a href="/login">Login</a>
-        <a href="/signup">Signup</a>
+        {{else}} 
+        <a href="/login" >Login</a>
+        <a href="/signup">Sign Up</a>
         {{/if}}
     </div>
 </nav>

@@ -1,5 +1,5 @@
 async function createBattle(type, id) {
-  const response = await fetch(`/api/battle/`, {
+  const response = await fetch(`/api/battle`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
