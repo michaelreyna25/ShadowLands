@@ -33,3 +33,4 @@ const logout = async () => {
 }
 
 document.querySelector('#logoutConfirm').addEventListener('click', logout);
+

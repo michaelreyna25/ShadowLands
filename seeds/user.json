@@ -1,27 +1,32 @@
 [
   {
-    "username": "flowerpower",
-    "email": "flower@gmail.com",
-    "password": "flower123"
+    "id": "1",
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "mypassword1"
   },
   {
-    "username": "catlover",
-    "email": "catlover@gmail.com",
-    "password": "kittycat"
+    "id": "2",
+    "username": "janedoe",
+    "email": "janedoe@example.com",
+    "password": "mypassword2"
   },
   {
-    "username": "beachfan",
-    "email": "beachfan@gmail.com",
-    "password": "sandybeach"
+    "id": "3",
+    "username": "bobsmith",
+    "email": "bobsmith@example.com",
+    "password": "mypassword3"
   },
   {
-    "username": "bookworm",
-    "email": "sandybeachn@gmail.com",
-    "password": "pageTurner"
+    "id": "4",
+    "username": "sarahjones",
+    "email": "sarahjones@example.com",
+    "password": "mypassword4"
   },
   {
-    "username": "moviebuff",
-    "email": "moviebuff@gmail.com",
-    "password": "reeltime"
+    "id": "5",
+    "username": "mikebrown",
+    "email": "mikebrown@example.com",
+    "password": "mypassword5"
   }
 ]
