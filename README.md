@@ -6,7 +6,7 @@ Battle Through Darkness
 - [ShadowLands](#shadowlands)
 - [Table of Contents](#table-of-contents)
 - [Description](#description)
-- [Installtion Instructions](#installtion-instructions)
+- [Installation Instructions](#installation-instructions)
 - [Github Account](#github-account)
 - [Images](#images)
 - [Contacts](#contacts)
@@ -17,8 +17,8 @@ Battle Through Darkness
 
 # Description
 This game was inspired by Pokemon (a childhood favorite), the sequence and over all of the game is simliar to the beloved classic.
-The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or 
-# Installtion Instructions
+The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or
+# Installation Instructions
 
 # Github Account
 - [Ashley](https://github.com/ashrean)
