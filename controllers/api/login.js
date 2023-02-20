@@ -1,9 +1,10 @@
-const router = require('express').Router();
+const router = require("express").Router();
 const { User } = require('../../models');
 
-router.post('/login', async (req, res) => {
+
+router.post('/', async (req, res) => {
     try {
-      const userData = await User.findOne({ where: { email: req.body.email } });
+      const userData = await User.findOne({ where: { id: req.body.id } });
       if (!userData) {
         res
           .status(400)
@@ -27,3 +28,5 @@ router.post('/login', async (req, res) => {
       res.status(400).json(err);
     }
   });
+
+  module.exports=router;
