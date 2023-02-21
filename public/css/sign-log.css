@@ -23,6 +23,7 @@
   }
 
   form input[type="email"],
+  form input[type="username"],
   form input[type="password"],
   form input[type="text"] {
     display: block;
@@ -49,9 +50,8 @@
     background-color: #006080;
   }
 
-  /* Styles for the sign-up form */
   #sign-up input[type="password"],
-  #sign-up input[type="email"] {
+  #sign-up input[type="username"] {
     border-radius: 5px;
     border: 1px solid #ddd;
   }
