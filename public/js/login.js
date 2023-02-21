@@ -2,9 +2,9 @@
 const loginConfirm = async (event) => {
     event.preventDefault();
 
-    const email = document.querySelector('.email').value.trim();
+    const email = document.querySelector('#email').value.trim();
 
-    const password = document.querySelector('.password').value.trim();
+    const password = document.querySelector('#password').value.trim();
 
     if (email && password) {
         const response = await fetch('/api/login', {
@@ -21,6 +21,4 @@ const loginConfirm = async (event) => {
     }
 }
 
-document.querySelector('.submit').addEventListener('click', loginConfirm);
-
-
+document.querySelector('#submit').addEventListener('click', loginConfirm);
