@@ -16,6 +16,7 @@ Battle Through Darkness
 
 
 # Description
+
 This is a fun and exciting game that is similar to Pokemon where you can collect and battle monsters throughout your journey. The goal of the game is to become the best monster trainer in the world by collecting as many monsters as you can and defeating other trainers in battles.
 
 # Installation Instructions
@@ -24,6 +25,11 @@ Make sure your computer has mysql already
 - After that is completed run `npm run watch`
 - Then at the bottom click on the "localhost" link.
 - It will then take you to our website where you can begin the game.
+
+This game was inspired by Pokemon (a childhood favorite), the sequence and over all of the game is simliar to the beloved classic.
+The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or
+# Installation Instructions
+
 
 # Github Account
 - [Ashley](https://github.com/ashrean)
