@@ -26,9 +26,6 @@ Make sure your computer has mysql already
 - Then at the bottom click on the "localhost" link.
 - It will then take you to our website where you can begin the game.
 
-This game was inspired by Pokemon (a childhood favorite), the sequence and over all of the game is simliar to the beloved classic.
-The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or
-# Installation Instructions
 
 
 # Github Account
