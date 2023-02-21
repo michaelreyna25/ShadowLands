@@ -1,0 +1,82 @@
+/* Common styles for both forms */
+.sign-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121111;
+  }
+
+  .sign-log article {
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e2800983;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+
+  form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  form button[type="submit"]:hover {
+    background-color: #006080;
+  }
+
+  /* Styles for the sign-up form */
+  #sign-up input[type="password"],
+  #sign-up input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  #sign-up button[type="submit"] {
+    background-color: #fdbd28;
+    margin-top: 10px;
+  }
+
+  #sign-up button[type="submit"]:hover {
+    background-color: #ff9f00;
+  }
+
+  /* Styles for the login form */
+  #login input[type="text"],
+  #login input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  #login button[type="submit"] {
+    background-color: #008CBA;
+    margin-top: 10px;
+  }
+
+  #login button[type="submit"]:hover {
+    background-color: #006080;
+  }
