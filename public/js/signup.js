@@ -1,25 +1,19 @@
-
-
-// confirm password
-// Create user
-// save user to database
-
-// trying this new code
 const signup = async (event) => {
   event.preventDefault();
 
   // Find the email, password, and confirm password input elements
+  const username = document.querySelector('#username');
   const email = document.querySelector('#email');
   const password = document.querySelector('#password');
   const confirmPassword = document.querySelector('#confirm-password');
 
-  // Check if all three input elements exist
-  if (email && password && confirmPassword) {
+  // Check if all four input elements exist
+  if (username && email && password && confirmPassword) {
 
     // If they all exist, send a POST request to the /api/users endpoint with the email and password
-    const response = await fetch('/api/users', {
+    const response = await fetch('/api/user', {
       method: 'POST',
-      body: JSON.stringify({email, password }),
+      body: JSON.stringify({ username, email, password }),
       headers: { 'Content-Type': 'application/json' },
     });
 
