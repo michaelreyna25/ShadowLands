@@ -9,16 +9,14 @@ main {
 #background-image {
     text-align: center;
     width: 100%;
-    border-bottom: 2px solid red;
+
     background-image: url('../image/image-003.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-size: x-large;
 }
 
-#background-image h1 {
-    
-}
+
 
 #background-image div {
     background-color: white;
@@ -43,6 +41,6 @@ main {
 #thumb-nail {
     padding: 10px;
     max-width: 250px;
-    max-height: 300px; 
+    max-height: 300px;
     image-rendering: auto;
-} 
+}

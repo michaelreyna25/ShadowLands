@@ -6,7 +6,7 @@ Battle Through Darkness
 - [ShadowLands](#shadowlands)
 - [Table of Contents](#table-of-contents)
 - [Description](#description)
-- [Installtion Instructions](#installtion-instructions)
+- [Installation Instructions](#installation-instructions)
 - [Github Account](#github-account)
 - [Images](#images)
 - [Contacts](#contacts)
@@ -16,9 +16,14 @@ Battle Through Darkness
 
 
 # Description
-This game was inspired by Pokemon (a childhood favorite), the sequence and over all of the game is simliar to the beloved classic.
-The user goes starts their journey by selecting a monster, then the user goes through a journey battling wild monsters to get their own monsters to level up or 
-# Installtion Instructions
+This is a fun and exciting game that is similar to Pokemon where you can collect and battle monsters throughout your journey. The goal of the game is to become the best monster trainer in the world by collecting as many monsters as you can and defeating other trainers in battles.
+
+# Installation Instructions
+Make sure your computer has mysql already
+- In your terminal run `npm run seed`
+- After that is completed run `npm run watch`
+- Then at the bottom click on the "localhost" link.
+- It will then take you to our website where you can begin the game.
 
 # Github Account
 - [Ashley](https://github.com/ashrean)
@@ -30,7 +35,7 @@ The user goes starts their journey by selecting a monster, then the user goes th
 ![alt text]()
 
 # Contacts
-- Linedin Accounts
+- Linkedin Accounts
 - [Ashley](https://www.linkedin.com/in/ashleyrean/)
 - [Michael](https://www.linkedin.com/in/michael-reyna-35b597245/)
 - [Troy](https://www.linkedin.com/in/troy-johnson-abb5a625a/)
@@ -54,7 +59,7 @@ The user goes starts their journey by selecting a monster, then the user goes th
 }
 ```
 # Resources
-- Class Activties
+- Class Activities
 - W3 Schools
 - Google Images
 
